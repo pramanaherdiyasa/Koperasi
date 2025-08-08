@@ -1,0 +1,173 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    max-height: 5000px;
+    color: black;
+    
+}
+/* navbar */
+.navbar{
+display: flex;
+background-color: white;
+border-bottom: solid 2px;
+position: fixed;
+width: 1521px;
+height: 80px;
+
+}
+.ksp-nama{
+    margin-right:300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+}
+.navbar-a ul{
+    display:flex;
+    list-style:none ;
+    font-size: 25px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-a li{
+    padding: 0px;
+
+}
+.navbar-a ul li{
+    color: black;
+     margin-left: 25px;
+   
+}
+.navbar-a .dropdown{
+     display: none; 
+     position: absolute;
+     top: 30px;
+     left: 995px;
+}
+.navbar-a ul li:hover .dropdown{
+    display: block;
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+}
+/* content */
+.hero{
+  background-image: url(/img/hero.jpg);
+  width: 1521px; 
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+.hero p{
+    max-width: 1000px;
+    padding-left: 20px;
+}
+.tentang-all{
+    min-height: 100vh;
+}
+.tentang{
+    max-width: 500px;
+    padding-top: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+.tentang-header{
+display: flex;
+background-image: url(/img/navbar.png);
+border-bottom: solid 2px;
+border-top: solid 2px;
+width: 1521px;
+height: 80px;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+.tentang p{
+    padding-top: 10px;
+}
+/* hubungi */
+.hubungi-all{
+    min-height: 100vh;
+}
+.hubungi-header{
+display: flex;
+background-image: url(/img/navbar.png);
+border-bottom: solid 2px;
+border-top: solid 2px;
+width: 1521px;
+height: 80px;
+align-items: center;
+justify-content: center;
+margin-top:60px;
+}
+.hubungi{
+    max-width: 500px;
+    padding-top: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+/* lokasi */
+.lokasi-all{
+    min-height: 100vh;
+}
+.lokasi-header{
+display: flex;
+background-image: url(/img/navbar.png);
+border-bottom: solid 2px;
+border-top: solid 2px;
+width: 1521px;
+height: 80px;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+
+.lokasi{
+    width: 80%;
+    padding-top: 20px;
+    height: 500px;
+    display: inline-block;
+    background-color: rgb(208, 208, 208);
+    margin-left: 150px;
+    margin-top: 30px;
+
+    
+}
+.lokasi-1{
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.lokasi h1{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 20px;  
+}
+.lokasi h2{
+    border-top: 2px solid black;
+}
+.lokasi p{
+    padding: 10px;
+}
+.lokasi iframe{
+    padding-top: 40px;
+    margin-left: -512px;
+}
+.lokasi a{
+    width: 100px;
+}
+/* footer */
+.footer{
+    background-color: #000000;
+    color: white;
+    margin-top: 100px;
+    justify-items: center;
+    color: white;
+}       
